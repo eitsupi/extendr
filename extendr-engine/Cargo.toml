@@ -15,7 +15,7 @@ license = "MIT"
 repository = "https://github.com/extendr/extendr"
 
 [dependencies]
-libR-sys = "0.3.0"
+libR-sys = { git = "https://github.com/eitsupi/libR-sys", rev = "e05ad4cfa3ad089ed0cdaacbb1fda8f3f3750fa0"}
 
 [features]
 default = []
